@@ -1,0 +1,63 @@
+.orderContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40;
+    border-bottom: 20rem solid #dddddd;
+    background-color: #ffffff;
+}
+.avatar{
+    width: 32rem;
+    height: 32rem;
+}
+.success{
+    font-size: 26rem;
+    color: #0bb951;
+}
+.close{
+    font-size: 26rem;
+    color: #cb1515;
+}
+.orderId{
+    margin-left: 20;
+}
+.rowlayout{
+    flex-direction: row;
+    padding-bottom: 20;
+    border-bottom: 1rem solid #eeeeee;
+    margin-bottom: 20;
+    flex: 1;
+}
+.itemLayout{
+    flex: 1;
+}
+.row{
+    flex-direction: row;
+    align-items: center;
+}
+.minor{
+    color: #999999;
+    font-size: 26rem;
+    margin:0 8rem;
+}
+.primary{
+    color: #333333;
+    font-size: 26rem;
+}
+.itemPrice{
+    width: 160;
+}
+.userPay{
+    justify-content: space-between;
+}
+.pic{
+    width: 172;
+    height: 172;
+}
+.itemInfo{
+    padding-left: 20;
+    padding-right: 20;
+}
+.itemTitle{
+    padding-bottom: 20;
+}
